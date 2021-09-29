@@ -1,0 +1,35 @@
+@use "./variables" as var;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+h1{
+    font-family: map-get($map: var.$font-families, $key: primary );
+    font-weight: map-get($map: var.$font-weights, $key: primary );
+    font-size: map-get($map: var.$font-sizes, $key:primary );
+    color: var.$gray;
+    text-transform: uppercase;
+
+}
+
+p{
+    font-family: map-get($map: var.$font-families, $key: regular );
+    font-weight: map-get($map: var.$font-weights, $key: regular );
+    font-size: map-get($map: var.$font-sizes, $key:regular );
+    color: var.$white;
+    width: 15.5em;
+
+}
+
+a{
+    font-family: map-get($map: var.$font-families, $key: regular );
+    font-weight: map-get($map: var.$font-weights, $key: regular );
+    font-size: map-get($map: var.$font-sizes, $key:regular );
+}

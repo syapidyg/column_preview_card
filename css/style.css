@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  width: 15.5em;
+}
+
+a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: 350px;
+  padding: 2.5em;
+}
+
+.card--orange {
+  background-color: #e38826;
+}
+.card--orange::before {
+  content: url("../images/icon-sedans.svg");
+}
+
+.card--cyandark {
+  background-color: #006970;
+}
+.card--cyandark::before {
+  content: url("../images/icon-suvs.svg");
+}
+
+.card--verydarkcyan {
+  background-color: #004241;
+}
+.card--verydarkcyan::before {
+  content: url("../images/icon-luxury.svg");
+}
+
+.button {
+  background-color: #f2f2f2;
+  border-radius: 2em;
+  padding: 0.75em;
+  text-align: center;
+  text-decoration: none;
+  width: 55%;
+  margin-top: 3em;
+  box-sizing: content-box;
+  border: 2px solid #f2f2f2;
+}
+.button:hover {
+  background: none;
+  color: #f2f2f2;
+}
+
+.button--orange {
+  color: #e38826;
+}
+
+.button--cyandark {
+  color: #006970;
+}
+
+.button--verydarkcyan {
+  color: #004241;
+}
+
+/*# sourceMappingURL=style.css.map */

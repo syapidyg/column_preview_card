@@ -1,0 +1,33 @@
+@use "./variables" as var;
+
+.button{
+    background-color: var.$gray;
+    border-radius: 2em;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    width: 55%;
+    margin-top: 3em;
+    box-sizing: content-box;
+    border: 2px solid var.$gray;
+
+    &:hover{
+        background: none;
+        color: var.$gray;
+    } 
+
+} 
+
+.button--orange{
+    color: var.$orange;
+}
+
+.button--cyandark{
+    color: var.$cyandark;
+}
+
+.button--verydarkcyan{
+    color: var.$verydarkcyan;
+}
+
+

@@ -1,0 +1,20 @@
+$orange : hsl(31, 77%, 52%);
+$cyandark : hsl(184, 100%, 22%);
+$verydarkcyan : hsl(179, 100%, 13%);
+$white : hsla(0, 0%, 100%, 0.75);
+$gray : hsl(0, 0%, 95%);
+
+$font-sizes:(
+    primary: 2rem,
+    regular: 1rem,
+);
+
+$font-families:(
+    primary: ('Big Shoulders Display', cursive),
+    regular: ('Lexend Deca', sans-serif),
+);
+
+$font-weights:(
+    primary: 700,
+    regular: 400,
+)
